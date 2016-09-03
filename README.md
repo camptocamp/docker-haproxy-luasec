@@ -10,7 +10,7 @@ Usage
 
 You might run the container as follow:
 ```Bash
-$ docker run -v /opt/haproxy.cfg:haproxy.cfg -d camptocamp/haproxy-luasec
+$ docker run -v /opt/haproxy.cfg:/etc/haproxy/haproxy.cfg -d camptocamp/haproxy-luasec
 ```
 
 HAProxy configuration notes
